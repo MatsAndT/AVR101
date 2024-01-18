@@ -1,0 +1,126 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/WinAVR-20100110/bin/avr-gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/Mats/Documents/GitHub/AVR101/cmake-build-minigw-avr/CMakeFiles/3.26.4/CompilerIdC/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Mats/Documents/GitHub/AVR101/cmake-build-minigw-avr/CMakeFiles/CMakeScratch/TryCompile-rw3y7k"
+      binary: "C:/Users/Mats/Documents/GitHub/AVR101/cmake-build-minigw-avr/CMakeFiles/CMakeScratch/TryCompile-rw3y7k"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Mats/Documents/GitHub/AVR101/cmake-build-minigw-avr/CMakeFiles/CMakeScratch/TryCompile-rw3y7k
+        
+        Run Build Command(s):C:/Program Files/JetBrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_6e4be && [1/2] C:\\WinAVR-20100110\\bin\\avr-gcc.exe   -v -o CMakeFiles/cmTC_6e4be.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCCompilerABI.c"
+        Using built-in specs.
+        Target: avr
+        Configured with: ../gcc-4.3.3/configure --enable-win32-registry=WinAVR-20100110 --with-gmp=/usr/local --with-mpfr=/usr/local --prefix=/c/WinAVR --target=avr --enable-languages=c,c++,objc --with-dwarf2 --enable-doc --disable-shared --disable-libada --disable-libssp --disable-nls --with-pkgversion='WinAVR 20100110' --with-bugurl='URL:http://sourceforge.net/tracker/?atid=520074&group_id=68108&func=browse'
+        Thread model: single
+        gcc version 4.3.3 (WinAVR 20100110) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6e4be.dir/CMakeCCompilerABI.c.obj' '-c'
+         c:/winavr-20100110/bin/../libexec/gcc/avr/4.3.3/cc1.exe -quiet -v -iprefix c:\\winavr-20100110\\bin\\../lib/gcc/avr/4.3.3/ C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -auxbase-strip CMakeFiles/cmTC_6e4be.dir/CMakeCCompilerABI.c.obj -version -o C:\\Users\\Mats\\AppData\\Local\\Temp/cc0VEmYP.s
+        ignoring nonexistent directory "c:/winavr-20100110/lib/gcc/../../avr/sys-include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         c:\\winavr-20100110\\bin\\../lib/gcc/avr/4.3.3/include
+         c:\\winavr-20100110\\bin\\../lib/gcc/avr/4.3.3/include-fixed
+         c:/winavr-20100110/lib/gcc/../../lib/gcc/avr/4.3.3/include
+         c:/winavr-20100110/lib/gcc/../../lib/gcc/avr/4.3.3/include-fixed
+         c:/winavr-20100110/lib/gcc/../../avr/include
+        End of search list.
+        GNU C (WinAVR 20100110) version 4.3.3 (avr)
+        	compiled by GNU C version 3.4.5 (mingw-vista special r3), GMP version 4.2.3, MPFR version 2.4.1.
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 61d68a374065d489330774d2533cbbdf
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6e4be.dir/CMakeCCompilerABI.c.obj' '-c'
+         c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/bin/as.exe -o CMakeFiles/cmTC_6e4be.dir/CMakeCCompilerABI.c.obj C:\\Users\\Mats\\AppData\\Local\\Temp/cc0VEmYP.s
+        COMPILER_PATH=c:/winavr-20100110/bin/../libexec/gcc/avr/4.3.3/;c:/winavr-20100110/bin/../libexec/gcc/;c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/bin/
+        LIBRARY_PATH=c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/;c:/winavr-20100110/bin/../lib/gcc/;c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6e4be.dir/CMakeCCompilerABI.c.obj' '-c'
+        [2/2] cmd.exe /C "cd . && C:\\WinAVR-20100110\\bin\\avr-gcc.exe  -v CMakeFiles/cmTC_6e4be.dir/CMakeCCompilerABI.c.obj -o cmTC_6e4be.exe -Wl,--out-implib,libcmTC_6e4be.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        FAILED: cmTC_6e4be.exe 
+        cmd.exe /C "cd . && C:\\WinAVR-20100110\\bin\\avr-gcc.exe  -v CMakeFiles/cmTC_6e4be.dir/CMakeCCompilerABI.c.obj -o cmTC_6e4be.exe -Wl,--out-implib,libcmTC_6e4be.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        Using built-in specs.
+        Target: avr
+        Configured with: ../gcc-4.3.3/configure --enable-win32-registry=WinAVR-20100110 --with-gmp=/usr/local --with-mpfr=/usr/local --prefix=/c/WinAVR --target=avr --enable-languages=c,c++,objc --with-dwarf2 --enable-doc --disable-shared --disable-libada --disable-libssp --disable-nls --with-pkgversion='WinAVR 20100110' --with-bugurl='URL:http://sourceforge.net/tracker/?atid=520074&group_id=68108&func=browse'
+        Thread model: single
+        gcc version 4.3.3 (WinAVR 20100110) 
+        COMPILER_PATH=c:/winavr-20100110/bin/../libexec/gcc/avr/4.3.3/;c:/winavr-20100110/bin/../libexec/gcc/;c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/bin/
+        LIBRARY_PATH=c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/;c:/winavr-20100110/bin/../lib/gcc/;c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6e4be.exe'
+         c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/bin/ld.exe -m avr2 -o cmTC_6e4be.exe c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/crts8515.o -Lc:/winavr-20100110/bin/../lib/gcc/avr/4.3.3 -Lc:/winavr-20100110/bin/../lib/gcc -Lc:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib CMakeFiles/cmTC_6e4be.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_6e4be.dll.a --major-image-version 0 --minor-image-version 0 -lgcc -lc -lgcc
+        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/bin/ld.exe: unrecognized option '--out-implib'
+        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/bin/ld.exe: use the --help option for usage information
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Check for working C compiler: C:/WinAVR-20100110/bin/avr-gcc.exe"
+    directories:
+      source: "C:/Users/Mats/Documents/GitHub/AVR101/cmake-build-minigw-avr/CMakeFiles/CMakeScratch/TryCompile-9nu4pd"
+      binary: "C:/Users/Mats/Documents/GitHub/AVR101/cmake-build-minigw-avr/CMakeFiles/CMakeScratch/TryCompile-9nu4pd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Mats/Documents/GitHub/AVR101/cmake-build-minigw-avr/CMakeFiles/CMakeScratch/TryCompile-9nu4pd
+        
+        Run Build Command(s):C:/Program Files/JetBrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_40c34 && [1/2] C:\\WinAVR-20100110\\bin\\avr-gcc.exe    -o CMakeFiles/cmTC_40c34.dir/testCCompiler.c.obj -c C:/Users/Mats/Documents/GitHub/AVR101/cmake-build-minigw-avr/CMakeFiles/CMakeScratch/TryCompile-9nu4pd/testCCompiler.c
+        [2/2] cmd.exe /C "cd . && C:\\WinAVR-20100110\\bin\\avr-gcc.exe   CMakeFiles/cmTC_40c34.dir/testCCompiler.c.obj -o cmTC_40c34.exe -Wl,--out-implib,libcmTC_40c34.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        FAILED: cmTC_40c34.exe 
+        cmd.exe /C "cd . && C:\\WinAVR-20100110\\bin\\avr-gcc.exe   CMakeFiles/cmTC_40c34.dir/testCCompiler.c.obj -o cmTC_40c34.exe -Wl,--out-implib,libcmTC_40c34.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/bin/ld.exe: unrecognized option '--out-implib'
+        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/bin/ld.exe: use the --help option for usage information
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+...
