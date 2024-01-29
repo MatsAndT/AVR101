@@ -47,8 +47,10 @@ int main() {
 
 	
 
-	while (1) {
+	/*while (1) {
 		PORTB ^= (1 << PC2);
 		_delay_ms(1000);
-	}
+	}*/
+	
+	while (1);
 }
